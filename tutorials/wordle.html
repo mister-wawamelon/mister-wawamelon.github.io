@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Kenny Yip | Wordle</title>
+        <meta name="author" content="Kenny Yip">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <link rel="icon" href="images/kenny-icon.png">
+
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Wordle -->
+        <link rel="stylesheet" href="wordle.css">
+        <script src="wordle.js"></script>
+            
+    </head>
+
+    <body>
+        <div class="container" style="background-color: white;">
+            <br>
+            <div class="my-nav">
+                <div id="my-title"><b><a href="/">Kenny Yip</a></b></div>
+
+                <div class="my-nav-content">
+                    <ul>
+                        <!-- <li><a href="/">About</a></li> -->
+                        <li><a href="/#experience">Work Experience</a></li>
+                        <li><a href="/#projects">Projects</a></li>
+                        <li><a href="/tutorials">Tutorials</a></li>
+<!--                         <li><a href="">Art</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            
+            <br>
+
+            <div>
+                <div class="my-header">Wordle</div>
+                <div class="code-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div id="wordle">
+                    <h1 id="title">WORDLE</h1>
+                    <hr>
+                    <br>
+            
+                    <div id="board">
+                    </div>
+            
+                    <h1 id="answer"></h1>
+                </div>                
+                <p>
+                    Wordle is a quick and popular guessing game that allows users 6 attempts to guess the word of the day. 
+                    After each guess, the color of the tiles will change to show how close your guess was to the word.
+                    Below you can also find a tutorial and demo that I made for this game.
+                </p>
+                <p><span style="color: #6aaa64;">Green</span>: The letter is in the correct position.</p>
+                <p><span style="color: #c9b458;">Yellow</span>: The letter is not in the correct position but exists in the word.</p>
+                <p><span style="color: #787c7e;">Grey</span>: The letter is not in the word.</p>
+
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <div class="card waves-effect" style = "width: 100%; height: 100%;">
+                            <div class="card-content">
+                                <span class=""><b>Wordle Demo</b> </span>
+                                <p><a href="https://www.youtube.com/watch?v=_az-igweW6o" target="_blank">https://www.youtube.com/watch?v=_az-igweW6o</a></p>
+                                
+                            </div>
+                            <div class="card-image">
+                                <iframe src="https://www.youtube.com/embed/_az-igweW6o" title="wordle demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <div class="card waves-effect" style = "width: 100%; height: 100%;">
+                            <div class="card-content">
+                                <span class=""><b>How to Code Wordle Tutorial</b> </span>
+                                <p><a href="https://www.youtube.com/watch?v=ckjRsPaWHX8" target="_blank">https://www.youtube.com/watch?v=ckjRsPaWHX8</a></p>     
+                            </div>
+                            <div class="card-image">
+                                <iframe src="https://www.youtube.com/embed/ckjRsPaWHX8" title="pmd1 demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Reference: <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">https://www.powerlanguage.co.uk/wordle/</a></p>
+            </div>
+
+            <br>
+            <img src="images/nyc-hongkong.png" style="width: 100%; opacity: 0.12;" draggable="false" onContextMenu="return false;">
+            <p class="my-copyright">Kenny Yip &copy; 2020</p>
+
+        </div>
+        
+    </body>
+</html>

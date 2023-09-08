@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kenny Yip</title>
+        <meta name="author" content="Kenny Yip">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/kenny-icon.png">
+
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </head>
+
+    <body>
+        <br>
+
+        <div class="container">
+            <div class="my-nav">
+                <div id="my-title"><b><a href="/">Kenny Yip</a></b></div>
+                <div class="my-nav-content">
+                    <ul>
+                        <li><a href="https://www.youtube.com/channel/UCdZQlE28wAgm6SKX_u9_L-Q/" target="blank">Youtube</a></li>
+                        <li><a href="/#projects">Projects</a></li>
+                        <li><a href="https://www.kennyyipcoding.com/" target="blank">Tutorials</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <br>
+            <div class="my-about">
+                <div class="my-header">About Me</div>
+                <div class="row">
+                    <div class="col s12 m12 l4" id="kenny-logo-col">
+                        <img src="images/kenny.png" alt="kenny-logo" id="kenny-logo" draggable="false" onContextMenu="return false;">
+                        <br>
+                        <p> 
+                            <a class="btn-floating waves-effect waves-light red" href="https://www.youtube.com/channel/UCdZQlE28wAgm6SKX_u9_L-Q" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a> 
+                            <a class="btn-floating waves-effect waves-light blue" href="https://www.linkedin.com/in/kenny-yip-1764a5134/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                            <a class="btn-floating waves-effect waves-light black" href="https://github.com/ImKennyYip" target="_blank" style="margin-right: 5px;"><i class="fab fa-github fa-2x"></i></a>  
+                        </p>
+                    </div>
+
+                    <div class="col s12 m12 l8" id="my-summary-col">
+                        <div class="my-summary">
+                            <p>
+                                Hi there! I am a Software Engineer and graduate of New York University's Tandon School of Engineering with a B.S in Computer Science.
+                                My interests are in front-end/back-end/full stack web applications and game programming.  
+                                You can also find demo of my work below and on <a href="https://www.youtube.com/channel/UCdZQlE28wAgm6SKX_u9_L-Q">youtube</a>, where I also work on programming tutorials.
+                                Feel free to reach out via <a href="https://www.linkedin.com/in/kenny-yip-1764a5134/">linkedin</a>!
+                            </p>
+
+                            <br>
+                            <table class="striped">
+                                <tr>
+                                    <td><b>Coding</b></td>
+                                    <td>Python, Ruby, Java, C++, HTML, CSS, JavaScript, SQL</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Technologies</b></td>
+                                    <td>Django, Flask, Node.js, Express, React, Rails, MySQL, MongoDB, Materialize, Bootstrap, Docker, Git</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Design</b></td>
+                                    <td> Adobe [Animate, Photoshop], Autodesk <a href="https://www.youracclaim.com/users/kenny-yip/badges" target="_blank">(certified user)</a> [AutoCAD, Revit, Inventor]</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Languages</b></td>
+                                    <td>English, Spanish, Cantonese, Italian, Hakka</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div id="experience">
+                <div class="my-header">Work Experience</div>
+
+                
+                <ul class="collapsible expandable" style="border: none; box-shadow: none!important;" >
+                    <li>
+                        <div class="collapsible-header my-highlight" style="border: none;" onclick="changeKenny('images/kenny-boeing.png')">
+                            <table>
+                                <tr>
+                                    <td><img src="images/boeing-logo.png" alt="boeing-logo" id="boeing-logo" draggable="false" onContextMenu="return false;"></td>
+                                    <td>Cloud Platform Intern</td>
+                                    <td>Jun 2019 - Aug 2019</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="collapsible-header my-highlight" style="border: none;" onclick="changeKenny('images/kenny-ibm2.png')">
+                            <table>
+                                <tr>
+                                    <td><img src="images/ibm-logo.png" alt="ibm-logo" id="ibm-logo" draggable="false" onContextMenu="return false;"></td>
+                                    <td>Software Design Intern</td>
+                                    <td><span class="my-dates">Jun 2018 - Aug 2018</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="collapsible-header my-highlight" style="border: none;" onclick="changeKenny('images/kenny-nyu.png')">
+                            <table>
+                                <tr>
+                                    <td><img src="images/nyu-logo.png" alt="nyu-logo" id="nyu-logo" draggable="false" onContextMenu="return false;"></td>
+                                    <td>Head Teaching Assistant</td>
+                                    <td><span class="my-dates">Feb 2018 - May 2020</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <br>
+            <div id="projects">
+                <div class="my-header">Projects</div>
+                <br>
+                <!-- Projects -->
+                <div class="row">
+
+                    <!-- Espaliano -->
+                    <a href="espaliano">
+                        <div class="col s12 m6 l4">
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/espaliano-sample.png" draggable="false" onContextMenu="return false;">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Espaliano</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <!-- Py2Ruby  -->
+                    <a href="pyruby">
+                        <div class="col s12 m6 l4">
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/pyruby-sample.png" draggable="false" onContextMenu="return false;">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Py2Ruby</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Super Mario Bros-->
+                    <a href="supermariobros">
+                        <div class="col s12 m6 l4">
+            
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/supermariobros-sample4.png" draggable="false" onContextMenu="return false;">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Super Mario Bros</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Candy Crush -->
+                    <a href="candycrush">
+                        <div class="col s12 m6 l4">
+            
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/candycrush-sample.png" draggable="false" onContextMenu="return false;">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Candy Crush</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Pokémon MD Quiz -->
+                    <a href="pokemonmdquiz">
+                        <div class="col s12 m6 l4">
+            
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/pokemonmdquiz-sample.png" draggable="false" onContextMenu="return false;">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Pokémon MD Quiz</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Maplestory Mini-Game -->
+                    <a href="maplestory">
+                        <div class="col s12 m6 l4">
+            
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/maplestory-sample.png" draggable="false" onContextMenu="return false;">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Maplestory Mini-Game</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                  
+                    <!-- Sudoku -->
+                    <a href="sudoku">
+                        <div class="col s12 m6 l4">
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/sudoku-sample.png" draggable="false" onContextMenu="return false;">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Sudoku Online</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Super Mario Run -->
+                    <a href="supermariorun" >
+                        <div class="col s12 m6 l4">
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/supermariorun-sample.png" draggable="false" onContextMenu="return false;">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Super Mario Run</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+        
+                    <!-- Pac Man -->
+                    <a href="pacman">
+                        <div class="col s12 m6 l4">
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/pacman-sample2.png" draggable="false" onContextMenu="return false;">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Pac Man</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <img src="images/nyc-hongkong.png" style="width: 100%; opacity: 0.12;" draggable="false" onContextMenu="return false;">
+            <p class="my-copyright">Kenny Yip &copy; 2020</p>
+
+        </div>
+
+    </body>
+        
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.collapsible');
+            var instances = M.Collapsible.init(elems, {accordion: false});
+        });
+
+        function changeKenny(img) {
+            var pic = document.getElementById("kenny-logo");
+            pic.src = img;
+        }
+    </script>
+
+</html>
